@@ -1,0 +1,170 @@
+body{
+    /* Margen predeterminado de las páginas web */
+     margin: 0; 
+     /* Margen pa' dentro */
+     padding: 0;
+     /* Tamaño de fuente */
+     font-size: 12px;
+     /* Tipo de letra */
+     font-family: Arial, Helvetica, sans-serif;
+}
+/* *************************************************************** */
+/* *********************************************************** */
+/* ******************************************************** */
+/* ****************************************************** */
+/* *******************NAVEGACIÓN********************* */
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+}
+/* Para entrar a elementos dentro de otros elementos y usas el (.) 
+solo si ese elemento es una clase*/
+header nav{
+    display: flex;
+    justify-content: right;
+
+}
+header nav .nav-right-section{
+    /* Eliminar viñetas */
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    width: 250px;
+    /* Hacemos el elemento flexible */
+    display: flex;
+    justify-content: space-between;
+    /* Centrado vertical--alineado de items */
+    align-items: center;
+    height: auto;
+}
+nav .nav-right-section a{
+    /* Para el delineado  */
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+}
+.nav-right-section .menu{
+    background-image: url(http://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    /* Tamaño de la imagen de fondo contenida */
+    background-size: contain;
+    /* En caso de que el logo se repita varias veces */
+    /* background-repeat: no-repeat; */
+}
+nav .nav-right-section img{
+    margin-right: 10px;
+    border-radius: 100%;
+}
+/* *************************************************************** */
+/* *********************************************************** */
+/* ******************************************************** */
+/* ****************************************************** */
+/* *******************MAIN********************* */
+main{
+    margin-top: 200px;
+    /* background-color: rgb(127, 255, 136); */
+    text-align: center; 
+}
+main .main-logo{
+    /* background-color: brown; */
+    width: 500px;
+    /* PROPIEDAD-------VALOR 1----VALOR 2 */
+    /* PROPIEDAD: VERTICAL  HORIZONTAL */
+    /* Centrar mi elemento */
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+main .main-logo img {
+    /* Editar tamaño de la imagen */
+    height: 100px;
+}
+/* INPUT SECTION */
+main .main-input{
+    /* background-color: blueviolet; */
+    width: 500px;
+    /* Centrara mi elemento */
+    margin: 0 auto;
+    /* Agregar margen inferior */
+}
+main .main-input-container{
+    /* background-color: azure; */
+    width: 500px;
+    /* Borde de color ANCHURA DE LINEA- ESTILO -COLOR */
+    border: 1px solid #000;
+    border-radius: 20px;
+
+}
+
+main .main-input input{
+    height: 35px;
+    border: none;
+    outline: none;
+    width: 450px;
+}
+main .main-input .search-icon{
+    /* https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg */
+    /* https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    background-position: center;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+main .main-input .micro-icon{
+    background-size: contain;
+    background-position: center;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+}
+main .main-input .cam-icon{
+    background-image: url();
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+main .main-input-container:hover{
+    box-shadow: 2px 2px 2px 2px #20212447;
+    border-color:#dfe1e500;
+}
+/* MAIN BUTTON SECTION */
+main .main-button{
+    /* background-color: aqua; */
+    width: 550px;
+    margin: 0 auto;
+
+}
+main .main-button div{
+    /* Alinear elementos en la misma linea */
+    display: inline;
+    background-color: #000;
+
+}
+main .main-button button{
+    /* Separacion entre buscador y botones */
+    margin-top: 30px;
+    /* Eliminr el borde negro puede ser con none o cero (0) */
+    border: none;
+    height: 40px;
+    background-color: #f8f9fa;
+    /* Color de texto */
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0px 15px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+main .main-button button:hover{
+    color: #202124;
+    /* Borde mas oscuro al pasar el mouse */
+    border: 1px solid #dadce0;
+    /* Sombra al pasar el mouse */
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .1);
+
+
+}
