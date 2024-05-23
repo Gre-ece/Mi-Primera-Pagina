@@ -1,0 +1,11 @@
+Realizar un algoritmo que sume dos números
+Inicio suma{
+    Quiero leer los números y guardarlos en variables
+    leer num1
+    leer num2
+    Quiero definir una suma que tome mis
+    varibles, las sume y me diga el resultado
+    suma=num1+num2
+    Escribe "la suma de" num1 "y" num2 "es" suma
+
+}

@@ -1,0 +1,76 @@
+body {
+    /* color de fondo */
+    /* Se puede colocar el color #FF5V124 */
+    /* background-color: rgb(147, 109, 141); */
+    /* Para ver paletas de colores "coolors" */
+    /* Dgradado de fondo */
+    /* background: radial-gradient(#2d0606,#21d347); */
+    /* Imagenes de fondo */
+    font-family: "Briem Hand", cursive; 
+    background:no-repeat center/100% url(https://i.pinimg.com/564x/7b/ea/33/7bea33cd0702787a46ef38a3fa0413ff.jpg);
+    
+}
+h3 {
+    color: rgb(255, 242, 0);
+    font-family: "Sedan SC", serif;
+}
+h1 {
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+#banner {
+    height: 800px;
+}
+img {
+    /* cambiar el tamaño de las imagenes */
+    /* width solo lo hace por el ancho estas propiedades se pueden tratar en bordes y pixeles */
+    width: 50%;
+    border-radius: 10%;
+}
+/* Para modificar un elemento en particular HTML, asignamos la clase
+y esa la llamamos en CSS con un punto (.) antes del nombre */
+.bouquete3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+/* Editar div del menu */
+.menu {
+    background-color: brown;
+    /* div flexible para moverse con los elementos dentro de si */
+    display: flex;
+    /* menu en columna */
+    flex-direction: column;
+    /* Alinea items de forma centrada */
+
+    align-items: center;
+}
+/* anclas del menu */
+a {
+    color: black;
+    text-decoration: none;
+    /* Anclas como botones */
+    background-color: blanchedalmond;
+    /* Margen interno */
+    padding: 20px 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+
+
+}
+a:hover {
+    background-color: brown;
+}
+.container {
+    background-color: aqua;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+
+}
+.logo_flower {
+    width: 25%;
+    margin-right: 30px;
+    justify-content: center;
+}
